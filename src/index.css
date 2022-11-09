@@ -1,0 +1,214 @@
+body {
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  code {
+    font-family: "Courier New",
+      monospace;
+  }
+  
+  
+  .headers {
+    background-color: whitesmoke;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .restOfTitle {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .nameOfSite {
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(220, 71, 71);
+    -webkit-text-stroke: 2px rgb(220, 71, 71);
+    padding: 5px;
+  }
+  
+  .tagline {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 5px;
+  }
+  
+  
+  .onScreenLink,
+  .logoutButton {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(251, 75, 75);
+    border-radius: 10%;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .logoutButton {
+    border: none;
+    font-size: 15px;
+  }
+  
+  .logoutButton:hover {
+    cursor: pointer;
+  }
+  
+  
+  .userInfoInputs {
+    margin-top: 30px;
+  }
+  
+  .usernameInput,
+  .passwordInput {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .loginRegButton {
+    background-color: rgb(251, 75, 75);
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10%;
+  }
+  
+  .loginRegButton:hover {
+    cursor: pointer;
+  }
+  
+  
+  .eachRoutine,
+  .eachActivity {
+    background-color: whitesmoke;
+    width: 650px;
+  }
+  
+  .editActivityButtonforall {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgb(220, 71, 71);
+    font-size: 14px;
+  }
+  
+  .createNewRoutineButton,
+  .createActivityButtonforall {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(220, 71, 71);
+    border-radius: 10%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  
+  .welcomeBlurb {
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .routinesCreatedBlurb {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  
+  .myRoutinesListWhole {
+    background-color: white;
+    width: 650px;
+  }
+  
+  .myRoutinesList {
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .routineBlock {
+    border-top: black 4px dashed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .routineBlock:first-child {
+    border: none;
+  }
+  
+  .enterNewActivity {
+    background-color: rgb(152, 152, 152);
+    padding: 5px;
+  }
+  
+  .removeActivityFromRoutineButton:hover {
+    cursor: pointer;
+    color: rgb(220, 71, 71);
+  }
+  
+  
+  .addRoutineHeader {
+    margin-top: 5px;
+  }
+  
+  .nameInput,
+  .goalInput,
+  .isPublicInput {
+    margin-bottom: 5px;
+  }
+  
+  .addRoutineButton {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(220, 71, 71);
+    border-radius: 10%;
+    font-size: 12px;
+    border: none;
+  }
+  
+  .addRoutineButton:hover {
+    cursor: pointer;
+  }
+  
+  
+  .editsHeader {
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .editActivityButton,
+  .addActivityToRoutineButton,
+  .editRoutineButton,
+  .deleteRoutineButton {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(220, 71, 71);
+    border-radius: 10%;
+    font-size: 12px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .editActivityButton:hover,
+  .addActivityToRoutineButton:hover,
+  .editRoutineButton:hover,
+  .deleteRoutineButton:hover {
+    cursor: pointer;
+  }
